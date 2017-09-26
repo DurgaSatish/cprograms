@@ -1,8 +1,9 @@
 #include<stdio.h>
 void  main()
 {
-      int i,m,sum,n;
+      int i,m,sum,n,avg;
       sum=0;
+      printf("enter  the value  of  m");
       scanf("%d",&m);
       for(i=0;i<m;i++)
       {
@@ -10,5 +11,7 @@ void  main()
            sum+=n;
       }
       printf("sum is %d",sum);
+      avg=sum/n;
+      printf("avg is %d",avg);       
 }
 
